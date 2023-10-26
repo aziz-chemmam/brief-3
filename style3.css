@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    
+}
+
+.icon{
+    
+    width: 100px;
+    margin-left: 100px;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    margin: -70px 0px 0px 500px ;    
+}
+ul{
+    display: flex;
+    gap: 130px;
+    list-style-type: none;
+}
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #ef4400;
+}
+
+.nav ul li a {
+    transition: ease all 0.9;
+}
+.nav{ 
+    background-color: black;
+}
+
+.intro img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+.intro{
+    margin: 50px 50px;
+    display: flex;
+    
+}
+.intro p{
+    margin: 70px 162px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.about{
+    color: white;
+}
+span{
+    color: #ef4400;
+}
+.journey img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+
+}
+.journey{
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.journey p{
+    margin: 120px 162px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.photo img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.photo{
+    margin: 50px 50px;
+    display: flex;
+    padding-left: 50px;
+    
+}
+.photo p{
+    margin: 135px 250px;
+    font-size: 25px;
+    text-align: center; 
+}
+.end img{
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+
+}
+.end{
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.end p{
+    margin: 120px 162px;
+    font-size: 25px;
+    text-align: center;
+}
+.titre{
+   color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+.line{
+    width: 407px;
+    height: 2px;
+    background-color: #ef4400;
+  margin: 13px 540px;
+}
+.footer{
+    justify-content: space-around;
+    display: flex;
+    background-color:#ef4400;
+    width: 100%;
+   padding: 30px;
+}
+.footer h1{
+    font-size: 2.5rem;
+    font-weight :900;
+    margin:4.6rem 0px;
+    
+}
+.f1 h3{   
+    margin-top: 4.6rem;  
+}
+.f2{
+    margin: 6rem 0px;
+    
+}
+.f3{
+    margin: 6rem 0px;
+    
+}
+.f4{
+    margin: 6rem 0px;
+    
+}
+.f5{
+    position: absolute;
+    margin-top:16rem;
+}
+
+@media(max-width:767px){
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul { 
+        display: none;
+    }
+    .nav i{
+        display: block;
+        color: #ffffff; 
+        position: absolute;
+        margin: 10px 400px ;
+    }
+        .nav i{
+        display: block;
+        color: #ffffff;
+        position: absolute;
+        margin: 10px 383px;
+    }
+    
+    .intro{
+        flex-direction: column;
+    }
+    .intro p{
+        margin: 70px 0px;
+        font-size: 25px;
+        text-align: center;   
+    }
+    .intro img{
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .journey img{
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+    
+    }
+    .journey{
+        margin: 50px 50px;
+        flex-direction: column;
+       
+        
+    }
+    .journey p{
+        margin: 80px -5px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .photo img{
+        width: 350px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 0px -50px;
+    }
+    .photo{
+        margin: 50px 50px;
+        flex-direction: column;
+    }
+    .photo p{
+        margin: 75px -38px;
+        font-size: 25px;
+        text-align: center;
+      margin-right: -10px;
+    }
+    .end img{
+        width: 350px;
+        height: 300px;
+        border-radius: 15px;
+    
+    }
+    .end{
+        margin: 50px 50px;
+        flex-direction: column;
+        
+        
+    }
+    .end p{
+        margin: 80px -40px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .footer h1{
+        font-size: 2.5rem;
+        margin: -60px 10px;
+        position: absolute;
+        color: black;
+    }
+    .f1 h3{   
+        margin-top: 5.9rem;  
+        width: 80px;
+        font-size: 15px;
+    }
+    .f2{
+        margin: 6rem 0px;
+        
+    }
+    .f3{
+        margin: 6rem 0px;
+        
+    }
+    .f4{
+        margin: 6rem 0px;
+        
+    }
+    .f5{
+        position: absolute;
+        margin-top:16rem;
+    }
+    .footer{
+        display: flex;
+        background-color:#ef4400;
+        width: 100%; 
+        gap: 30px; 
+        
+    }
+    .line{
+        width: 407px;
+        height: 2px;
+        background-color: #ef4400;
+      margin: 13px 40px;
+    }
+    .foot
+    .nav i{
+        display: block;
+        color: #ffffff;
+        position: absolute;
+        margin: -70px 400px;
+    }
+}
